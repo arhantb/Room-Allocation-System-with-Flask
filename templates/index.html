@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Room Allocation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Room Allocation</h1>
+    <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+        <label for="group_file">Group Information CSV:</label>
+        <input type="file" id="group_file" name="group_file" required><br><br>
+        <label for="hostel_file">Hostel Information CSV:</label>
+        <input type="file" id="hostel_file" name="hostel_file" required><br><br>
+        <button type="submit">Upload</button>
+    </form>
+    <h2>Allocation Results</h2>
+    <div id="results">
+        <p>No results yet. Upload the CSV files to see the allocation.</p>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
