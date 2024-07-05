@@ -25,11 +25,11 @@ venv\Scripts\activate
 Run the project-:
 python app.py
 
-Access the Application:
+Access the Application-:
 go to http://localhost:5000/
 
 Known Issues-
-Display of Results: The current implementation does not display the allocation results on the web page. I've done as I coul do work on this issue.
+Display of Results: The current implementation does not display the allocation results on the web page.I've done as much as I could to work on this issue till my expertise.
 I'm open to contributions to eliminate this error. If you have any suggestions or fixes, please reach out to me at arhantanilbagde@gmail.com.
 
 
