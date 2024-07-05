@@ -14,5 +14,6 @@ To set up the environment for this project, follow these steps:
 Clone the Repository:
 git clone git@github.com:your-username/your-repository.git
 cd your-repository
+
 Install Dependencies:
 pip install -r requirements.txt
