@@ -28,5 +28,11 @@ python app.py
 Access the Application:
 go to http://localhost:5000/
 
+Known Issues-
+Display of Results: The current implementation does not display the allocation results on the web page. I've done as I coul do work on this issue.
+I'm open to contributions to eliminate this error. If you have any suggestions or fixes, please reach out to me at arhantanilbagde@gmail.com.
+
+
+
 
 
